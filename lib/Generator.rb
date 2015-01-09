@@ -1,5 +1,5 @@
 class Generator
   def generate (data)
-    File.new("Certificat " + data.studentName + ".pdf", "w")
+    File.new("Certificate " + data.studentName + ".pdf", "w")
   end
 end

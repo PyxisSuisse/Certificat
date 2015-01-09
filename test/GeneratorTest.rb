@@ -10,7 +10,7 @@ class GeneratorTest < Test::Unit::TestCase
 
       generator.generate(data)
                  
-      assert_equal true, File.exists?("Certificat John Doe.pdf")
-      FileUtils.rm_f("Certificat John Doe.pdf")
+      assert_equal true, File.exists?("Certificate John Doe.pdf")
+      FileUtils.rm_f("Certificate John Doe.pdf")
     end
 end
